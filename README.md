@@ -1,70 +1,75 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Forum planner
+🚀 <a href="https://waves-of-change-forum.vercel.app/">LIVE DEMO</a>
 
-## Available Scripts
+<!-- <img src="public/assets/gifs/demo.gif" width="100%" height="auto" /> -->
 
-In the project directory, you can run:
+### Description
 
-### `yarn start`
+This is a React.js/Next.js based forum planner application. Administrators can set up an event easily and invite participants. Users can then log in, book sessions and see who checked in to the event.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- 📱  Responsive design 
 
-### `yarn test`
+- 🔥 [Next.js](https://nextjs.org) 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🎨 Integrate with [Tailwind CSS](https://tailwindcss.com) (w/ JIT mode)
 
-### `yarn build`
+- 💅 PostCSS for processing Tailwind CSS and integrated to `styled-jsx`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 🎉 Type checking [TypeScript](https://www.typescriptlang.org)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 🗂 VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 🤖 SEO metadata, JSON-LD and Open Graph tags with Next SEO
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<!-- ### Run it locally
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### 1. Clone repo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+git clone https://github.com/maxime-groff/forum-planner.git
+cd forum-planner
+yarn
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Then, you can run locally in development mode with live reload:
 
-## Learn More
+```
+yarn dev
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Open <http://localhost:3000> with your favorite browser to see your project.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### 2. Add your own content
 
-### Code Splitting
+ 1. **Content**: change the configuration in the ```src/config/index.json``` file to change the content of the landing page to match your use ```src/config/index.json```  folder and .
+ 2. **Images**:  add any images/icons..etc to the ```public/assets/images```  folder and update their reference source in ```src/config/index.json```.
+ 3. **Theme**:  to change the theme, update the ```tailwind.config.js```  file to match the theme of your branding. [Tutorial](https://tailwindcss.com/docs/configuration).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### 3. Deploy to production
 
-### Analyzing the Bundle Size
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fissaafalkattan%2Freact-landing-page-template-2021)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+##### Deploy manually
 
-### Making a Progressive Web App
+You can see the results locally in production mode with:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  ```
+yarn build
+yarn start
+```
 
-### Advanced Configuration
+The generated HTML and CSS files are minified (built-in feature from Next js). It will also removed unused CSS from [Tailwind CSS](https://tailwindcss.com).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+You can create an optimised production build with:
 
-### Deployment
+```
+yarn build-prod
+``` -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Contributions
 
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Everyone is welcome to contribute to this project. Feel free to open an issue if you have question or found a bug.
